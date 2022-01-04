@@ -1,4 +1,4 @@
-const staticCacheName = 's-app-v2'
+const staticCacheName = 's-app-v3'
 
 const assetUrls = [
   'index.html',
@@ -11,7 +11,13 @@ self.addEventListener('install', async event => {
   await cache.addAll(assetUrls)
 })
 
-self.addEventListener('activate', event => {
+self.addEventListener('activate', async event => {
+  const cacheNames = await caches.keys()
+  await Promise.all(
+    cacheNames
+      .filter(name => name !== staticCacheName)
+      .map(name => caches.delete(name))
+  )
 })
 
 self.addEventListener('fetch', event => {
