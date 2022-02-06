@@ -29,4 +29,4 @@ Here's some additional info you should know before working with the project. Acc
 ## Setup
 
 There's no need to install anything. You can simply run `npx live-server . --port=3001` in your project directory to view it locally.
-It will open the project with [Live Server](http://127.0.0.1:3001) at the port 3001: [http://127.0.0.1:3001](http://127.0.0.1:3001)
+It will open the project with [Live Server](https://www.npmjs.com/package/live-server) at the port 3001: [http://127.0.0.1:3001](http://127.0.0.1:3001)
