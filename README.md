@@ -10,7 +10,7 @@ This is a simple Progressive web application example for practice.
 
 ### Technologies:
 * HTML, CSS, JavaScript
-* [Deployed](pwa-practice-a4a77.web.app) to [Firebase Hosting](https://firebase.google.com/docs/hosting)
+* [Deployed](https://pwa-practice-a4a77.web.app/) to [Firebase Hosting](https://firebase.google.com/docs/hosting)
 
 ### Additional info
 Here's some additional info you should know before working with the project. According to Wikipedia:
