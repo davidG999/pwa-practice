@@ -19,14 +19,11 @@ Here's some additional info you should know before working with the project. Acc
 [Read full article](https://en.wikipedia.org/wiki/Progressive_web_application) 
 
 ## Preview 👀
-<img src="https://user-images.githubusercontent.com/85896378/152685570-5b4e6cb4-e97a-47eb-a4fc-825e2a36ca4f.png" alt="Install PWA" width="500px">
-<img src="https://user-images.githubusercontent.com/85896378/152685572-2f192585-b083-47ad-90e7-27ef6c29aaef.png" alt="Open PWA" width="500px">
-<img src="https://user-images.githubusercontent.com/85896378/152685573-61d62759-2e98-4b1d-82de-048618bb2b3d.png" alt="Uninstall PWA" width="500px">
-<img src="https://user-images.githubusercontent.com/85896378/152685576-eafc58fc-56f0-4591-9d5b-4a91fb3d92dc.png" alt="Remove PWA" width="500px">
+![PWA Preview](https://user-images.githubusercontent.com/85896378/159691187-0a6aec19-bb41-46e2-a007-46529445f665.gif)
 
 ### [Try it out yourself! 👆](https://pwa-pract1ce.web.app/)
 
 ## Setup
 
 There's no need to install anything. You can simply run `npx live-server . --port=3001` in your project directory to view it locally.
-It will open the project with [Live Server](https://www.npmjs.com/package/live-server) at the port 3001: [http://127.0.0.1:3001](http://127.0.0.1:3001)
+It will open the project with [Live Server](https://www.npmjs.com/package/live-server) at the port 3001: <http://127.0.0.1:3001>
